@@ -88,7 +88,7 @@ The **MobileNetV2** architecture was selected due to its efficiency in the *Accu
     * `Dense (1, Sigmoid)` (Probabilistic output 0-1)
 
 
-![MobileNetV2 Architecture](Diagrams/Model-Achitecture.png.png)
+![MobileNetV2 Architecture](Diagrams/Model-Achitecture.png)
 
 ---
 
