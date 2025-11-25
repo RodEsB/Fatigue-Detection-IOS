@@ -131,6 +131,35 @@ ngrok http 5001
 4.  Compile and run on a physical device (required for camera access).
 
 -----
+---
+
+### System Tests
+
+The following images demonstrate the system's real-time response across different scenarios:
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/RodEsB/Fatigue-Detection-IOS/blob/main/App-Results-Implementation/App-results-awake.png?raw=true" alt="Awake Test" width="250"/>
+      <br>
+      <sub><b>State: AWAKE</b><br>(Safe Condition)</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/RodEsB/Fatigue-Detection-IOS/blob/main/App-Results-Implementation/App-results-evaluation.png?raw=true" alt="Evaluation Test" width="250"/>
+      <br>
+      <sub><b>State: EVALUATING</b><br>(Detecting Drowsiness...)</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/RodEsB/Fatigue-Detection-IOS/blob/main/App-Results-Implementation/App-results-fatigue.png?raw=true" alt="Fatigue Test" width="250"/>
+      <br>
+      <sub><b>🚨 ALARM TRIGGERED!</b><br>(Persistent Fatigue)</sub>
+    </td>
+  </tr>
+</table>
+
+*Note: These screenshots display the iOS application interface receiving real-time inference data from the Python server.*
+
+---
 
 ## 📊 Results
 
