@@ -1,0 +1,22 @@
+# --- MACOS ---
+.DS_Store
+
+# --- PYTHON ---
+__pycache__/
+venv/
+.env
+.ipynb_checkpoints
+
+# --- XCODE / SWIFT ---
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+DerivedData/
+build/
+*.os_activity_dt_mode
+
+# --- Models ---
+best_fatigue_model.h5
+final_fatigue_cnn_lstm_model.h5
+mobilenet_v2.h5
+MobileNetV2_Fatigue_bits.tflite
