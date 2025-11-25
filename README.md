@@ -42,7 +42,7 @@ To ensure the model generalizes correctly, images undergo the following stages:
 
 
 [Image of image preprocessing pipeline]
-
+![Preprocessing Pipeline](Diagrams/Preprocessing-Pipeline.png)
 
 ### 2. Filter Exploration (Classical Vision)
 During the research phase, various filters were evaluated to highlight facial features (eyes/mouth):
@@ -93,7 +93,7 @@ The **MobileNetV2** architecture was selected due to its efficiency in the *Accu
 
 
 [Image of MobileNetV2 architecture]
-
+![MobileNetV2 Architecture](Diagrams/Model-Achitecture.png.png)
 
 ---
 
