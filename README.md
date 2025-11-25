@@ -140,17 +140,17 @@ The following images demonstrate the system's real-time response across differen
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/RodEsB/Fatigue-Detection-IOS/blob/main/App-Results-Implementation/App-results-awake.png?raw=true" alt="Awake Test" width="250"/>
+      <img src="App-Results-Implementation/App-results-awake.png" alt="Awake Test" width="250"/>
       <br>
       <sub><b>State: AWAKE</b><br>(Safe Condition)</sub>
     </td>
     <td align="center">
-      <img src="https://github.com/RodEsB/Fatigue-Detection-IOS/blob/main/App-Results-Implementation/App-results-evaluation.png?raw=true" alt="Evaluation Test" width="250"/>
+      <img src="App-Results-Implementation/App-results-evaluation.png" alt="Evaluation Test" width="250"/>
       <br>
       <sub><b>State: EVALUATING</b><br>(Detecting Drowsiness...)</sub>
     </td>
     <td align="center">
-      <img src="https://github.com/RodEsB/Fatigue-Detection-IOS/blob/main/App-Results-Implementation/App-results-fatigue.png?raw=true" alt="Fatigue Test" width="250"/>
+      <img src="App-Results-Implementation/App-results-fatigue.png" alt="Fatigue Test" width="250"/>
       <br>
       <sub><b>🚨 ALARM TRIGGERED!</b><br>(Persistent Fatigue)</sub>
     </td>
