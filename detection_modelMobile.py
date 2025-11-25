@@ -3,18 +3,18 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
-# --- Constants and Parameters ---
+# onstants and Parameters 
 MODEL_PATH = "mobilenet_v2.h5" 
 
 IMG_HEIGHT = 224
 IMG_WIDTH = 224
 PREDICTION_THRESHOLD = 0.5 
 
-# --- CONSTANTES PARA LA POLÍTICA DE DETECCIÓN (Persistencia) ---
+# CONSTANTES PARA LA POLÍTICA DE DETECCIÓN (Persistencia) 
 ALARM_TRIGGER_FRAMES = 10  
 fatigue_consecutive_frames = 0 
 
-# --- Visualization Parameters ---
+# Visualization Parameters
 FONT = cv2.FONT_HERSHEY_SIMPLEX
 TEXT_COLOR_AWAKE = (0, 255, 0)  
 TEXT_COLOR_WARNING = (0, 165, 255) 
@@ -22,7 +22,7 @@ TEXT_COLOR_FATIGUE = (0, 0, 255)
 TEXT_POSITION = (50, 50)
 TEXT_SIZE = 1.0
 
-# --- Load Resources ---
+# Load Resources 
 print("Cargando modelo MobileNetV2...")
 try:
     model = load_model(MODEL_PATH)

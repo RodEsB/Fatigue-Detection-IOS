@@ -7,7 +7,7 @@ import base64
 
 app = Flask(__name__)
 
-# --- CONFIGURACIÓN ---
+# CONFIGURACIÓN
 #best_fatigue_model.h5
 MODEL_PATH = "mobilenet_v2.h5" 
 IMG_SIZE = 224
