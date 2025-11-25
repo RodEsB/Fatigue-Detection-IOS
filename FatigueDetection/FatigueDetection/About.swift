@@ -48,7 +48,7 @@ struct SecondView: View {
                             Text("Python para entrenar el modelo de inteligencia artificial.")
                                 .foregroundColor(.white)
                             Text(
-                                "Flask como servidor para comunicar la app con el modelo de CNN + LSTM previamente entrenado."
+                                "Flask como servidor para comunicar la app con el modelo MobileNetV2 previamente entrenado."
                             )
                             .foregroundColor(.white)
                         }
@@ -80,7 +80,7 @@ struct SecondView: View {
                                         
                     DisclosureGroup {
                         VStack(alignment: .leading, spacing: 15) {
-                            Text("La app está desarrollada en Swift con interfaz en SwiftUI. El modelo de IA fue entrenado en Python, utilizando un dataset de más de 25,000 imagenes, fue evaluado previamente contra otros modelos entrenados de la misma manera y finalmente se utilizó el modelo CNN + LSTM debido a su precisión, finalmente el modelo es ejecutado en un servidor de Flask para la comunicación del modelo con la app.")
+                            Text("La app está desarrollada en Swift con interfaz en SwiftUI. El modelo de IA fue entrenado en Python, utilizando un dataset de más de 25,000 imagenes, fue evaluado previamente contra otros modelos entrenados de la misma manera y finalmente se utilizó el modelo MobileNetV2 debido a su precisión, finalmente el modelo es ejecutado en un servidor de Flask para la comunicación del modelo con la app.")
                                 .foregroundColor(.white)
                         }
                         .padding()
