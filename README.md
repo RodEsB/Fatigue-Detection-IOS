@@ -39,9 +39,6 @@ To ensure the model generalizes correctly, images undergo the following stages:
     * Bicubic resizing to `224x224` px.
 * **Color Transformations:** Color space conversion from BGR (OpenCV) to RGB (TensorFlow).
 
-
-
-[Image of image preprocessing pipeline]
 ![Preprocessing Pipeline](Diagrams/Preprocessing-Pipeline.png)
 
 ### 2. Filter Exploration (Classical Vision)
@@ -91,8 +88,6 @@ The **MobileNetV2** architecture was selected due to its efficiency in the *Accu
     * `Dense (1, Sigmoid)` (Probabilistic output 0-1)
 
 
-
-[Image of MobileNetV2 architecture]
 ![MobileNetV2 Architecture](Diagrams/Model-Achitecture.png.png)
 
 ---
